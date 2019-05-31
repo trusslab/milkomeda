@@ -429,3 +429,8 @@ Note: checkGen is not production-ready. The comments in `gles_patcher.py` have m
 * We have not ported the checks for extension and platform-specific OpenGLES APIs. They are not used in our test cases, but we plan to support them in the future.
 * There is a small chance that Milkomeda fails to run. If you see a blank screen with no apparent error in `adb logcat`, please reboot the phone and retry. 
 * Running Milkomeda requires the screen to be closed until the launch process is complete. We plan to resolve this issue.
+
+# Acknowledgments
+
+This work (i.e., design and implementation of Milkomeda) was supported by NSF awards #1617513, #1513783, and
+ONR award N00014-17-1-2513.
